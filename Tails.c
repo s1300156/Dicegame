@@ -14,6 +14,9 @@ int main() {
     count += random;
   }
   printf("Total value: %d\n", count);
-
+if(count>=7){
+    printf("you won!\n");
+  }
+  else printf("you lose!\n",);
   return 0;
 }
